@@ -1,0 +1,65 @@
+body {
+  background-color: beige;
+  font-family: "Montserrat", Courier, monospace;
+}
+
+.caja {
+  border: 1px solid #222;
+  background-color: white;
+  color: black;
+  font-family: "Montserrat", Courier, monospace;
+  font-weight: bold;
+  width: 120px;
+  height: 120px; /* eliminar */
+  line-height: 120px;
+  text-align: center;
+  margin: 5px;
+  /*float: left; Antes así funcionaba */
+}
+
+.flex-container {
+  border: 1px solid black;
+  background: cyan;
+  padding: 20px;
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  /* flex-direction: row; - default filas */
+  /* flex-direction: column - columnas;  */
+  /* Añade más cajas  */
+
+  /* para que no se junten todas */
+  /* flex-wrap: nowrap - default; */
+  /* flex-wrap: wrap; */
+
+  /* flex-flow: row wrap; remplaza los dos de arriba */
+  /* elimina las nuevas, quedate 4 */
+
+  /* justify-content: space-between; *-arround *-evently *-center *-flex-start *-flex-end  */
+  /* height: 1000px; - quita la altura de caja arriba eliminar👆🏻 */
+  /* align-items: flex-start **-center  **-flex-end */
+  /* Añade más cajas  */
+
+  /* align-content: center; organiza y pone en el centro */
+  /* Elimina cajas, deja 3  */
+  /* Agrega c1, c2, c3 */
+  /* Asigna colores random */
+}
+
+/* .c1 {
+  background: lightblue;
+  order: 1;
+  flex-grow: 5;
+}
+
+.c2 {
+  background: lightcoral;
+  order: 2;
+  flex-grow: 1;
+}
+
+.c2 {
+  background: lightgreen;
+  order: 3;
+  flex-grow: 1;
+} */
